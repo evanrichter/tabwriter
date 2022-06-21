@@ -1,0 +1,7 @@
+project: tabwriter
+target: tabwrite
+
+cmds:
+  - cmd: /tabwrite
+  - cmd: /tabwrite_no_inst @@
+    libfuzzer: false
